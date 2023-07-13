@@ -17,7 +17,8 @@
         "tsConfig": "packages/ui/tsconfig.app.json",
         "assets": ["packages/ui/src/favicon.ico", "packages/ui/src/assets"],
         "styles": ["packages/ui/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "allowedCommonJsDependencies": ["@clerk/clerk-js"]
       },
       "configurations": {
         "production": {
